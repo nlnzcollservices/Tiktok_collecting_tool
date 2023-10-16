@@ -29,8 +29,6 @@ ydl_opts = {
     'mergeoutputformat': 'mp4',
 }
 
-# ... (previous code)
-
 def my_gui():
     form = sg.FlexForm('form name')
     scheme = "LightGreen2"
@@ -49,10 +47,6 @@ def my_gui():
     event, values = window.read()
 
     return values, window, event
-
-# ... (previous code)
-
-
 
 
 def is_single_video(url):
@@ -108,7 +102,6 @@ def get_tiktok_videos(url, storage_folder):
         file_collected = True
     return flag_collected
 
-# ... (rest of the code remains the same)
 
 
 def scroll_down(driver):
