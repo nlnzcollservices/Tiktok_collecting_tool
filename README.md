@@ -19,7 +19,7 @@ This Python script allows you to download videos from TikTok. It can handle both
 
 ## Installation
 
-1. **Clone the repository or download the script files.**
+1. **Clone the repository or download the script file.**
 
 2. **Install the required Python packages:**
 
