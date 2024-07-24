@@ -89,7 +89,7 @@ def get_tiktok_videos(url, storage_folder):
         print(soup.text)
         items = []
         itms_titles = {}
-        lnks_soup = soup.find_all("div", attrs={"class": "tiktok-x6y88p-DivItemContainerV2 e19c29qe7"})
+        lnks_soup = soup.find_all("div", attrs={"class": "css-at0k0c-DivWrapper e1cg0wnj1"})
         for lnk_soup in lnks_soup:
             lnk = lnk_soup.find("a").attrs["href"]
             print(lnk)
