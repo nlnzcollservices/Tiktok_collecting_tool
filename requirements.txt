@@ -1,0 +1,6 @@
+requests
+selenium
+beautifulsoup4
+yt-dlp
+PySimpleGUI==4.55.1
+urllib3
