@@ -27,3 +27,11 @@ This Python script allows you to download videos from TikTok. It can handle both
 
    ```sh
    pip install -r requirements.txt
+   
+3. **Download geckodriver:**
+
+   Download geckodriver for windows, uzip and place .exe file in the script folder or in other folder indicated in path.
+   https://github.com/mozilla/geckodriver/releases
+   (Windows releases contain "win" and ".zip")
+   
+   
