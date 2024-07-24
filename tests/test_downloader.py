@@ -1,10 +1,10 @@
 import os
 import pytest
 from unittest.mock import patch, MagicMock
+import yt_dlp
 
 # Import the function to be tested
 def download_video(link, video_path, video_folder):
-    import yt_dlp
     ydl_opts = {
         'format': 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]/best',
         'outtmpl': '%(title)s.%(ext)s',
