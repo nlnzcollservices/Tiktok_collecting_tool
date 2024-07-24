@@ -46,6 +46,7 @@ This Python script allows you to download videos from TikTok. It can handle both
 2. When little window appears, input link to the TikTok video or profile URL and choose a folder to save the videos.
 
 3. Click "Run!" to start the downloading process.
+4. Let the app open you FireFox instance drived by "geckodriver.exe" and selenum. Refresh if required. Complete a cute TikTok puzzle to prove that you are human. 
 
 
 ## Maintenance
