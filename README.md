@@ -34,4 +34,41 @@ This Python script allows you to download videos from TikTok. It can handle both
    https://github.com/mozilla/geckodriver/releases
    (Windows releases contain "win" and ".zip")
    
+## Usage
+
+1. **Run the script:**
+
+   ```sh
+   python your_script_name.py
+
+When little window appears, input tothe TikTok video or profile URL and choose a folder to save the videos.
+
+Click "Run!" to start the downloading process.
+
+
+## Maintenance
+
+To ensure the script continues to function correctly:
+
+1. **Keep `yt-dlp` up to date:**
+
+   `yt-dlp` is frequently updated to handle changes in video download sites. Make sure you are using the latest version:
+
+   ```
+   pip install --upgrade yt-dlp
+
+   ```
+
+
+2. **Modify HTML parsing if TikTok changes their page structure:**
+
+If the script stops recognizing video links, you may need to update the BeautifulSoup class selectors. Modify the following lines in the script:
+
+```
+lnks_soup = soup.find_all("div", attrs={"class": "css-at0k0c-DivWrapper e1cg0wnj1"})
+```
+Update the class attribute to match the new HTML structure of the TikTok page.
+
+
+
    
