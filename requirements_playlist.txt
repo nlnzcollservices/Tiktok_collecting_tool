@@ -1,0 +1,9 @@
+requests
+selenium
+beautifulsoup4
+yt-dlp
+PySimpleGUI==4.60.5.0
+urllib3
+fuzzywuzzy
+python-Levenshtein
+emoji
