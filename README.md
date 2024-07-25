@@ -17,6 +17,13 @@ This Python script allows you to download videos from TikTok. It can handle both
 - `PySimpleGUI==4.60.5.0`
 - `urllib3`
 
+  additional for filtering:
+
+- `fuzzywuzzy
+- `python-Levenshtein
+- `emoji
+
+
 ## Installation
 
 1. **Clone the repository or download the script file.**
