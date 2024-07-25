@@ -48,6 +48,12 @@ This Python script allows you to download videos from TikTok. It can handle both
 3. Click "Run!" to start the downloading process.
 4. Let the app open a FireFox instance drived by "geckodriver.exe" and selenum. Refresh a page if asked. Complete a cute TikTok puzzle to prove that you are human. 
 
+5. **Filter and Extract Playlist Videos:**
+   
+Unfortunately, the app cannot download from the playlists. If you would like limited content, use the tool and then filter downloaded video.
+
+If you would like to copy certain playlist videos after collecting to separate folder, you can use `filter_output_by_playlist_tool.py`. Run the script, it will open small window, enter the playlist link, the folder with your videos, and the folder for playlist videos. The script will take all titles from the playlist, compare them with the .description file content, and copy them to the "playlist" folder changing names to titles.
+
 
 ## Maintenance
 
